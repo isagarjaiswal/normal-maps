@@ -1,0 +1,136 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+body{
+    background-color: rgb(210, 218, 221);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.main{
+    width: 60%;
+    height: 70%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    /* position: relative; */
+}
+.left{
+    /* position: relative;  */
+    width: 35%;
+    height: 100%;
+    background-color: rgb(44, 45, 64);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px 0 0 10px ;
+    
+}
+.nav{
+    width: 100%;
+    height: 35px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+}
+.left > .ul{
+    list-style: none;
+    /* background-color: black; */
+    width: 100%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* text-align: left; */
+    padding-left: 60px;
+}
+.ul > .a > span{
+    font: 500 13px "montserrat";
+    color: grey;
+}
+.ul > .a > h3{
+    font: 500 15px "montserrat";
+    color: white;
+}
+
+.footer > .ull{
+    width: 100%;
+    height: 30%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: ; */
+}
+.ull > li {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 3px;
+}
+.ull> .xx> h4{
+    color: rgb(202, 194, 194);
+    font: 500 12px "montserrat";
+}
+.ull> .xx> h5{
+    color: rgb(202, 194, 194);
+    font: 500 10px "montserrat";
+}
+.ull> li> h4{
+    color: rgb(106, 101, 101);
+    font: 500 12px "montserrat";
+}
+.ull> li> h5{
+    color: rgb(149, 147, 147);
+    font: 500 10px "montserrat";
+}
+.right{
+    width: 65%;
+    height: 100%;
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:0 10px  10px 0 ;
+}
+.right > img{
+    width: 100%;
+    height: 100%;
+ /* transform: rotate(180deg); */
+   border-radius:0 10px  10px 0 ;
+}
+.position > .from-to{
+    position: absolute ;
+    top: 31%;
+    left: 19%;
+    transform: rotate(-68deg);
+
+}
+.position > .time {
+    position: absolute ;
+    top: 55%;
+    left: 22%;
+   
+}
+.position > .refresh{
+    position: absolute ;
+    top: 35%;
+    left: 38%;
+   
+}
+.position > .share{
+    position: absolute ;
+    top: 69.7%;
+    left: 22%;
+   
+}
